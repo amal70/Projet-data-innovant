@@ -7,7 +7,11 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <header>
+        <div class="logo">
+            <h1>Vélo Électrique à Grenoble</h1>
+        </div>
         <nav>
             <ul>
                 <li><a href="#accueil">Accueil</a></li>
@@ -19,42 +23,49 @@
         </nav>
     </header>
 
-    <section id="accueil">
-        <h1>Bienvenue à Grenoble : Le vélo électrique pour tous !</h1>
-        <p>Découvrez comment le vélo électrique peut transformer vos trajets quotidiens dans la ville de Grenoble. Plus rapide, plus écologique, et tellement agréable !</p>
-        <img src="images/velo-electrique.jpg" alt="Vélo électrique à Grenoble">
+    <section id="accueil" class="hero">
+        <h2>Bienvenue à Grenoble : Le vélo électrique pour tous !</h2>
+        <p>Découvrez une nouvelle façon de vous déplacer, rapide, écologique et facile.</p>
+        <a href="#location" class="cta-button">Louer un Vélo</a>
     </section>
 
     <section id="avantages">
         <h2>Les Avantages du Vélo Électrique</h2>
-        <ul>
-            <li>Réduction de l'empreinte carbone</li>
-            <li>Facilité d'utilisation avec l'assistance électrique</li>
-            <li>Économies sur le carburant et le stationnement</li>
-            <li>Idéal pour les pentes de Grenoble</li>
-            <li>Accessibilité pour tous les âges</li>
-        </ul>
+        <div class="advantages-container">
+            <div class="advantage">
+                <h3>Écologique</h3>
+                <p>Réduisez votre empreinte carbone en choisissant un mode de transport respectueux de l'environnement.</p>
+            </div>
+            <div class="advantage">
+                <h3>Pratique</h3>
+                <p>Fini les embouteillages ! Le vélo électrique vous permet de circuler facilement dans la ville.</p>
+            </div>
+            <div class="advantage">
+                <h3>Accessibilité</h3>
+                <p>Facile à utiliser, même pour les non-cyclistes. Le moteur assisté vous aide à pédaler sans effort.</p>
+            </div>
+        </div>
     </section>
 
     <section id="location">
         <h2>Location de Vélos Électriques</h2>
-        <p>Des stations de location de vélos électriques sont disponibles à travers la ville. Vous pouvez louer un vélo pour quelques heures ou pour une journée complète.</p>
-        <a href="https://www.location-velo-grenoble.com" target="_blank">Découvrez les stations de location près de chez vous !</a>
+        <p>Les stations de location sont partout à Grenoble. Choisissez votre station et commencez à rouler !</p>
+        <a href="https://www.location-velo-grenoble.com" target="_blank" class="cta-button">Trouver une station près de chez vous</a>
     </section>
 
     <section id="soutien">
         <h2>Le Soutien de la Ville</h2>
-        <p>La ville de Grenoble met en place des initiatives pour encourager l'utilisation des vélos électriques, comme des subventions et des pistes cyclables sécurisées.</p>
+        <p>Grenoble soutient l'utilisation des vélos électriques à travers des subventions et des infrastructures adaptées.</p>
         <ul>
-            <li>Subventions pour l'achat de vélos électriques</li>
-            <li>Élargissement du réseau de pistes cyclables</li>
-            <li>Services de réparation et d'entretien des vélos électriques</li>
+            <li>Subventions pour l'achat de vélos électriques.</li>
+            <li>Réseau de pistes cyclables sécurisé et bien entretenu.</li>
+            <li>Ateliers de réparation gratuits pour les vélos électriques.</li>
         </ul>
     </section>
 
     <section id="contact">
         <h2>Contactez-Nous</h2>
-        <p>Pour toute question ou suggestion, n'hésitez pas à nous contacter.</p>
+        <p>Si vous avez des questions, nous sommes là pour vous aider. Envoyez-nous un message !</p>
         <form action="submit_form.php" method="POST">
             <label for="nom">Nom :</label>
             <input type="text" id="nom" name="nom" required>
@@ -72,5 +83,7 @@
     <footer>
         <p>&copy; 2025 Vélo Électrique à Grenoble. Tous droits réservés.</p>
     </footer>
+
 </body>
 </html>
+
