@@ -3,6 +3,4 @@ pandas
 numpy
 openpyxl
 streamlit_echarts
-matplotlib.pyplot
-seaborn
 time
