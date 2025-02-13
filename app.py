@@ -25,4 +25,4 @@ Utilisez la barre latérale pour naviguer entre les sections.
 
 # Bouton pour démarrer directement
 if st.button("Commencer l’analyse 🌱"):
-    st.switch_page("pages/1_Accueil.py")  # Redirige vers la page d'accueil interactive
+    st.switch_page("1_Accueil.py")  # Redirige vers la page d'accueil interactive
